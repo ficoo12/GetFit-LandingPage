@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+    <title>GetFit</title>
+  </head>
+
+  <header class="header ">
+    <a href="#"><img class="logo" alt="GetFit logo" src="Logo.svg" /></a>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#aboutus">About us</a></li>
+        <li><a class="main-nav-link" href="#howitworks">How it works</a></li>
+        <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="main-nav-link nav-cta" href="#cta">Contact us</a></li>
+        <div class="bubble"></div>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+  <body>
+    
+    <section class="hero-section">
+      <div class="hero-container">
+        <h1 class="hero-title"><span>UNLOCK</span> YOUR<br> BODY’s FULL POTENTIAL</h1>
+        <div class="social-proof-container">
+          <div class="social-proof-people">
+            <img width="40" height="40" src="social_proof_img/person01.png" alt="person's portrait"></img>
+            <img width="40" height="40" src="social_proof_img/person02.png" alt="person's portrait"></img>
+            <img width="40" height="40" src="social_proof_img/person03.png" alt="person's portrait"></img>
+            <img width="40" height="40" src="social_proof_img/person04.png" alt="person's portrait"></img>
+            <img width="40" height="40" src="social_proof_img/person05.png" alt="person's portrait"></img>
+          </div>
+          <p class="social-proof-text"><span>1000+</span> Transformed<br> lifes last year</p>
+        </div>
+        <a href="#aboutus"><button class="hero-cta-btn">Learn more &darr;</button></a>
+      </div>
+    </section>
+
+    <section class="features-section section">
+      <div class="container">
+        <div class="features">
+          <div class="feature-item p-r-t-1">
+            <img src="img/Exercise-icon.svg" alt="Exercise-icon" />
+            <p class="feature-text">
+              <span>Customized</span><br />
+              training plans
+            </p>
+          </div>
+          <div class="feature-item">
+            <img src="img/meal_plan_icon.svg" alt="meal-plan-icon" />
+            <p class="feature-text">
+              <span>Customized</span><br />
+              meal plans
+            </p>
+          </div>
+          <div class="feature-item p-r-t-2">
+            <img src="img/calendar_icon.svg" />
+            <p class="feature-text">
+              <span>Flexible</span><br />
+              scheduling
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="aboutus" class="about-us-section section">
+      <div class="container">
+        <div class="about-us-header">
+          <h1 class="about-us-headline">About Get Fit</h1>
+          <p class="about-us-subheadline">OUR MISSION</p>
+        </div>
+        <p class="about-us-text">
+          At Get Fit We believe that<br />
+          everyone deserves access to<br />
+          personalized fitness and<br />
+          nutrition solutions that cater<br />
+          to their unique needs and<br />
+          aspirations.
+        </p>
+        <p id="howitworks" class="how-it-works-headline">
+          HOW IT WORKS?
+        </p>
+        <p class="how-it-works-text">
+          Our training & nutritition program developed by GetFit team will help you <span>bring your goals to life!</span>
+        </p>
+        <div class="steps-container">
+          <div class="step">
+            <p class="step-number">01</p>
+            <p class="step-headline">Free discovery call</p>
+            <p class="step-text">
+              Embark on your transformative journey with a personalized Zoom call led by one of our expert coaches. Through a series of targeted questions, they will understand your needs and guide you in defining your new fitness goals.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-number">02</p>
+            <p class="step-headline">Personal plan</p>
+            <p class="step-text">
+              
+After setting your goals with your trainer, the next Zoom session focuses on crafting a tailored training and nutritional plan designed to suit your specific objectives and lifestyle. Our aim is to create a personalized program just for you.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-number">03</p>
+            <p class="step-headline">Progress tracking</p>
+            <p class="step-text">
+              Monthly, you'll engage in a Zoom session with our trainer. The purpose of these sessions is to gather your feedback, ensuring continuous enhancement of your training program. Additionally, our trainer will be available to address any questions you may have.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonial-section section">
+      <div class="testimonial-container container">
+        <p class="testimonial-text">
+          "As a busy professional, I struggled<br />
+          to find time for the gym and healthy<br />
+          cooking. Get Fit made it incredibly<br />
+          convenient to stay on track with my<br />
+          fitness goals. Thanks to Get Fit, I've<br />
+          lost 15 pounds and <span>feel more energized</span><br />
+          than ever!"
+        </p>
+        <div class="testimonial-person-description">
+          <img
+            width="70"
+            height="70"
+            src="img/testimonial-person01.png"
+            alt="person portrait"
+          />
+          <div>
+            <p class="testimonail-person-name">Jaxson Lipshutz</p>
+            <p class="testimonail-person-plan-type">Monthly plan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="pricing-section section">
+      <div class="container">
+        <div class="pricing-text-container">
+          <p class="pricing-headline">
+            INVEST IN YOURSELF
+          </p>
+          <p class="how-it-works-text p-t-24">
+            Choose a plan that fits your needs & goals and start working on your
+            self <span>not on monday but today!</span>
+          </p>
+        </div>
+        <div class="pricing-container">
+          <div class="pricing-card01">
+            <div class="pricing-plan-header">
+              <p>Monthly plan</p>
+              <p>
+                Unlock your fitness journey with flexibility through our monthly plan, offering a convenient and adaptable approach to achieving your goals.
+              </p>
+            </div>
+            <div class="pricing-plan-body">
+              <p>$83,77/per month</p>
+              <p>Free cancelation in first 10 days</p>
+              <p>Possible to pause once(max 10 days)</p>
+              <button>Start monthly plan</button>
+              <p>Schedule free call</p>
+              <div class="divider"></div>
+            </div>
+            <div class="pricing-plan-footer">
+              <p class="emphasized">Personalized training plans</p>
+              <p class="emphasized">Personalized meal plans</p>
+              <p>Support through our app</p>
+              <p>Access to our blog</p>
+            </div>
+          </div>
+          <div class="pricing-card02">
+            <div class="pricing-plan-header">
+              <p>Yearly plan</p>
+              <p>
+                Commit to your wellness with our annual plan, providing a cost-effective and comprehensive fitness solution for a sustained, transformative experience.
+              </p>
+            </div>
+            <div class="pricing-plan-body btn-2">
+              <p>$849,24/per year</p>
+              <p>Save $13 every month</p>
+              <p>Pause/cancel anytime</p>
+              <button>Start yearly plan</button>
+              <p>Schedule free call</p>
+              <div class="divider"></div>
+            </div>
+            <div class="pricing-plan-footer">
+              <p class="emphasized">Personalized training plans</p>
+              <p class="emphasized">Personalized meal plans</p>
+              <p class="emphasized">Private online session every month</p>
+              <p class="emphasized">Free access to our webinars</p>
+              <p>Support through our app</p>
+              <p>Access to our blog</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section section">
+      <div class="container">
+        <div class="cta-container">
+          <p class="cta-headline">
+            Let’s begin your<br />
+            <span>transformative</span> journey.
+          </p>
+          <button class="cta-btn">Join now</button>
+        </div>
+      </div>
+      <div class="image-container">
+        <img loading="lazy" src="img/cta-img01.png" />
+        <img loading="lazy" src="img/cta-img02.png" />
+        <img loading="lazy" src="img/cta-img03.png" />
+        <img loading="lazy" src="img/cta-img04.png" />
+      </div>
+    </section>
+    <section class="FAQ-section section">
+      <div class="container">
+        <p class="faq-subheadline">FAQ</p>
+        <p class="faq-headline">Have question?</p>
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="question-container">
+              <p class="question">
+                How does Get Fit tailor training programs to individual needs?
+              </p>
+              <div class="drop-down-btn hide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="answer hide">
+              Our trainers customize programs based on your fitness level,
+              goals, and preferences. Through an initial assessment, we create a
+              personalized plan to ensure optimal results.
+            </p>
+          </div>
+          <div class="faq-item">
+            <div class="question-container">
+              <p class="question">
+                Are the meal plans suitable for specific dietary requirements?
+              </p>
+              <div class="drop-down-btn hide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="answer hide">
+              Absolutely! Our nutritionists consider your dietary preferences
+              and restrictions when crafting meal plans. Whether you're
+              vegetarian, gluten-free, or have specific preferences, we've got
+              you covered.
+            </p>
+          </div>
+          <div class="faq-item">
+            <div class="question-container">
+              <p class="question">
+                Can I access my training programs and meal plans on the go?
+              </p>
+              <div class="drop-down-btn hide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <p class="answer hide">
+              Yes, you can! Our online platform is accessible 24/7, allowing you
+              to view and follow your programs from anywhere with an internet
+              connection. Your fitness journey is at your fingertips.
+            </p>
+          </div>
+          <div class="faq-item">
+            <div class="question-container">
+              <p class="question">
+                What makes Get Fit's approach different from other online
+                fitness services?
+              </p>
+              <div class="drop-down-btn hide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="answer hide">
+              Our approach combines expert guidance, data-driven strategies, and
+              a supportive community. With certified professionals, real-time
+              progress tracking, and a proven track record, we stand out in
+              delivering successful fitness transformations.
+            </p>
+          </div>
+          <div class="faq-item">
+            <div class="question-container">
+              <p class="question">
+                How often are the training programs updated?
+              </p>
+              <div class="drop-down-btn hide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="answer hide">
+              We regularly update training programs to keep them fresh and
+              challenging. Our aim is to prevent plateaus and maintain your
+              motivation by introducing new exercises and routines to your
+              regimen.
+            </p>
+          </div>
+          <div class="faq-item">
+            <div class="question-container">
+              <p class="question">
+                Is there a money-back guarantee if I'm not satisfied with the
+                results?
+              </p>
+              <div class="drop-down-btn hide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p class="answer hide">
+              Yes, we offer a satisfaction guarantee. If you're not pleased with
+              your progress within the first 30 days, we'll refund your
+              investment. Your success and satisfaction are our top priorities.
+            </p>
+          </div>
+        </div>
+        <div class="faq-footer">
+          <h1>Still have question?</h1>
+          <div class="faq-btn-container">
+            <button class="faq-btn-1">Free zoom call</button>
+            <button class="faq-btn-2">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cta section" id="cta">
+      <div class="container">
+        <h2 class="cta-headline">Start your trasformative journey <span class="">today!</span></h2>
+        <div class="cta">
+          <div class="cta-text-box">
+            <form class="cta-form" action="#">
+              <div class="name-input">
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" placeholder="John Smith" required/> 
+              </div>
+              <div class="email-input">
+                <label for="email">Email address</label>
+                <input id="email" type="email" placeholder="me@example.com" required/>
+              </div>
+              <div class="message-input">
+              <label for="message">Do you have any message for us?</label>
+              <textarea id="message" required>I am ready to start my transformative journey with Getfit team!</textarea>
+            </div>
+              <button class="btn btn--form">Send message</button>
+            </form>
+          </div>
+          <div class="cta-img-box" role="img" arial-label="person liftin weights"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="linkandlogo">
+          <div class="logo"><img src="Logo.svg" /></div>
+          <div class="column-links">
+            <p class="link-header">Links</p>
+            <p class="link">Home</p>
+            <p class="link">About us</p>
+            <p class="link">How it works?</p>
+            <p class="link">Testimonials</p>
+            <p class="link">Pricing</p>
+            <p class="link">FAQ</p>
+          </div>
+          <div class="column-links">
+            <p class="link-header">Service</p>
+            <p class="link">Join now</p>
+            <p class="link">Contact us</p>
+            <p class="link">Free zoom call</p>
+          </div>
+          <div class="column-links">
+            <p class="link-header">Social</p>
+            <p class="link">Facebook</p>
+            <p class="link">Instagram</p>
+            <p class="link">Youtube</p>
+          </div>
+
+          <div>
+            <p class="link-header">Contact Us</p>
+            <p class="link">514-783-4597</p>
+            <p class="link">hello@getfit.com</p>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="copyright">
+          <p>© Design By Filip Livaja - 2023</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+  </body>
+</html>

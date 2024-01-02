@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #111;
+  color: #fff;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+p {
+  margin-bottom: 0 !important;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+.p-t-24 {
+  padding-top: 2.4rem;
+}
+.pt-12 {
+  padding-top: 12rem;
+}
+.pb-12 {
+  padding-bottom: 12rem;
+}
+.pt-20 {
+  padding-top: 20rem;
+}
+.pb-20 {
+  padding-bottom: 20rem;
+}
+.emphasized {
+  color: #8ce99a;
+}
+.full-width {
+  width: 100% !important;
+}
+textarea {
+  resize: none;
+  color: #333;
+  font-family: sans-serif;
+}
+
+/* carousel component-bootstrap */
+
+.carousel-control-prev-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.carousel-control-next-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+
+*:focus {
+  outline: none;
+}
+
+.bubble {
+  position: absolute;
+  z-index: -2;
+  color: #51bd68;
+}
